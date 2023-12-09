@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+</head>
+<body>
+    
+    <div class="navbar">
+       
+
+            <div class="logo">
+           
+              <img src="../static/images/dtc.png" alt="" class="logoImg">
+              <h4 class="headingLogo">Delhi Technical Campus</h4>
+            
+      
+            </div>
+      
+            <ul class="nav-links">
+      
+              <li><a class="active" href="#">Home</a></li>
+      
+              <li><a href="#">About</a></li>
+      
+              <li><a href="#">Services</a></li>
+      
+              <li><a href="#">Contact</a></li>
+      
+            </ul>
+      
+          
+    </div>
+    <div class="body-section">
+        <!-- <img src="./images/dtcImage.jpg" alt="Background Image" class="CoverImg"> -->
+   
+<div class="container">
+    
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://img.icons8.com/color/48/000000/circled-user-female-skin-type-5--v1.png" alt="image">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. My name is sam. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+</div>   
+<!-- Footer -->
+<div class="footer">
+    <div class="row primary">
+        <!-- First Row with DTC Logo -->
+        <div class="column about">
+            <h3>About Us</h3>
+            <p>
+              <i class="fa fa-map-marker" aria-hidden="true"></i>
+              28/1, Knowledge Park-III,
+
+              Greater Noida - 201306 (U.P.) <br>
+              
+              9958093125, 8527215678,
+              
+              9958114525, 8527687800 <br>
+              
+               info@delhitechnicalcampus.ac.in
+            </p>
+            <div class="social">
+              <i class="fa fa-facebook-square"></i>
+              <i class="fa fa-twitter-square"></i>
+              <i class="fa fa-linkedin-square"></i>
+              <i class="fa fa-instagram"></i>
+            </div>
+          </div>
+          <div class="column link">
+            <h3>Links</h3>
+            <ul class="footerLink">
+              <li class="flink"><a href="#home">Home</a></li>
+              <li class="flink"><a href="#team">Team</a></li>
+              <li class="flink"><a href="#blogs">Blogs</a></li>
+              <li class="flink"><a href="#support">Support</a></li>
+            </ul>
+          </div>
+          <div class="column subscribe">
+            <h3>Newsletter</h3>
+            <div>
+              <input type="email" placeholder="Your email id here" />
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="row copyright">
+            <div class="footer-menu">
+          
+            <a href="">Home</a>
+            <a href="">F.A.Q</a>
+            <a href="">Cookies Policy</a>
+            <a href="">Terms Of Service</a>
+            <a href="">Support</a>
+          
+            </div>
+             <p>Copyright &copy; 2022</p>
+          </div>
+          
+
+   
+    
+</div>
+
+
+
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>

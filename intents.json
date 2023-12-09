@@ -1,0 +1,593 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    
+    
+    {
+      "tag": "admission_query",
+      "patterns": [
+        "Tell me about the admission process",
+        "How can I apply for admission?",
+        "What are the admission requirements?"
+      ],
+      "responses": [
+        "To apply for admission, please visit our official website :https://delhitechnicalcampus.ac.in/ and follow the instructions on the admission page.",
+        "Admission requirements and details can be found on our website: https://delhitechnicalcampus.ac.in/  and Feel free to ask if you have specific questions."
+      ]
+    },
+   
+    
+    {
+      "tag": "admission_deadline",
+      "patterns": [
+        "What is the admission deadline?",
+        "When is the last date to apply for admission?",
+        "Tell me about the application deadline"
+      ],
+      "responses": [
+        "The admission deadline is [specific date]. Please ensure to submit your application before this date to be considered for admission."
+      ]
+    },
+    {
+      "tag": "course_information",
+      "patterns": [
+        "Tell me about the courses offered",
+        "What programs are available?",
+        "Give me information about the courses"
+      ],
+      "responses": [
+        "We offer a variety of undergraduate and postgraduate courses. You can find detailed information about each program on our official website or contact our admission office for assistance."
+      ]
+    },
+    {
+      "tag": "admission_status",
+      "patterns": [
+        "How can I check my admission status?",
+        "Tell me about the admission status checking process",
+        "When will I know if I'm admitted?"
+      ],
+      "responses": [
+        "You can check your admission status by logging into the admission portal on our website. Once your application is reviewed, you will receive an email notification regarding your admission status."
+      ]
+    },
+    {
+      "tag": "tuition_fees",
+      "patterns": [
+        "What are the tuition fees?",
+        "Tell me about the cost of tuition",
+        "How much do I need to pay for the courses?"
+      ],
+      "responses": [
+        "Tuition fees vary depending on the program. You can find detailed information about tuition fees for each course on our official website or contact the finance department for assistance."
+      ]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "How can I contact the admission office?",
+        "Give me the contact details for admission inquiries",
+        "What is the admission office phone number?"
+      ],
+      "responses": [
+        "You can contact the admission office by phone at [phone number] or by email at [email address]. For in-person inquiries, the admission office is located in [location]."
+      ]
+    },
+    {
+      "tag": "application_process",
+      "patterns": [
+        "Tell me about the application process",
+        "How do I apply for admission?",
+        "What documents are required for the application?"
+      ],
+      "responses": [
+        "The application process involves various steps. You can find detailed instructions and the list of required documents on our official website. Ensure to follow the guidelines to complete your application successfully."
+      ]
+    },
+    {
+      "tag": "accommodation",
+      "patterns": [
+        "Is accommodation available for students?",
+        "Tell me about on-campus housing",
+        "Do you provide dormitory facilities?"
+      ],
+      "responses": [
+        "Yes, we offer on-campus housing facilities for students. You can find detailed information about accommodation options on our website or contact the accommodation office for assistance."
+      ]
+    },
+    {
+      "tag": "entrance_exam",
+      "patterns": [
+        "Is there an entrance exam for admission?",
+        "Tell me about the admission entrance exam",
+        "Do I need to take a test to get admitted?"
+      ],
+      "responses": [
+        "Some programs may require an entrance exam as part of the admission process. You can check the specific requirements for your chosen program on our website or contact the admission office for details."
+      ]
+    },
+    {
+      "tag": "admission_criteria",
+      "patterns": [
+        "What are the admission criteria?",
+        "Tell me about the eligibility requirements",
+        "How are students selected for admission?"
+      ],
+      "responses": [
+        "Admission criteria vary by program. You can find detailed information about eligibility requirements on our official website or contact the admission office for specific criteria related to your chosen program."
+      ]
+    },
+    {
+      "tag": "foreign_students",
+      "patterns": [
+        "Are there opportunities for international students?",
+        "Tell me about admission for foreign students",
+        "Do you accept applications from international students?"
+      ],
+      "responses": [
+        "Yes, we welcome applications from international students. You can find information about admission requirements for international students on our website or contact the international admissions office for assistance."
+      ]
+    },
+    
+    {
+      "tag": "transfer_students",
+      "patterns": [
+        "Can I transfer from another university?",
+        "Tell me about the admission process for transfer students",
+        "Do you accept transfer applications?"
+      ],
+      "responses": [
+        "Yes, we accept transfer applications. You can find information about the transfer admission process and requirements on our website or contact the admission office for assistance."
+      ]
+    },
+    {
+      "tag": "online_courses",
+      "patterns": [
+        "Do you offer online courses?",
+        "Tell me about online education options",
+        "Can I apply for admission to online programs?"
+      ],
+      "responses": [
+        "Yes, we offer online courses and programs. You can find information about online education options on our website or contact the online education office for details about admission to online programs."
+      ]
+    },
+    {
+      "tag": "graduate_admission",
+      "patterns": [
+        "Tell me about admission to graduate programs",
+        "What are the requirements for postgraduate admission?",
+        "Can I apply for a master's degree?"
+      ],
+      "responses": [
+        "Information about admission to graduate programs, including master's degrees, can be found on our official website. Check the admission requirements specific to the program you are interested in or contact the graduate admissions office for details."
+      ]
+    },
+    {
+      "tag": "application_fee",
+      "patterns": [
+        "Is there an application fee?",
+        "Tell me about the admission application fee",
+        "How much is the application fee?"
+      ],
+      "responses": [
+        "Yes, there may be an application fee for submitting your admission application. You can find information about the application fee on our website or contact the finance department for details."
+      ]
+    },
+   
+    {
+      "tag": "admission_open_house",
+      "patterns": [
+        "Do you host admission open house events?",
+        "Tell me about the admission open house",
+        "Can I visit the campus for an open house?"
+      ],
+      "responses": [
+        "Yes, we host admission open house events where you can learn more about our campus, programs, and facilities. Check the events calendar on our website for upcoming open house dates or contact the admission office for details."
+      ]
+    },
+    {
+      "tag": "deferral_request",
+      "patterns": [
+        "Can I request a deferral of my admission?",
+        "Tell me about deferring admission",
+        "Do you allow admission deferrals?"
+      ],
+      "responses": [
+        "Yes, you can request a deferral of your admission under certain circumstances. Please contact the admission office for information on the deferral request process and eligibility criteria."
+      ]
+    },
+    {
+      "tag": "admission_documents",
+      "patterns": [
+        "What documents do I need for admission?",
+        "Tell me about the required admission documents",
+        "Can you provide a list of documents for admission?"
+      ],
+      "responses": [
+        "The list of required documents for admission varies by program. You can find detailed information about the necessary documents on our official website or contact the admission office for a specific document checklist based on your chosen program."
+      ]
+    },
+    {
+      "tag": "admission_orientation",
+      "patterns": [
+        "Is there an admission orientation program?",
+        "Tell me about the admission orientation",
+        "Do I need to attend an orientation session?"
+      ],
+      "responses": [
+        "Yes, we organize admission orientation programs to help new students familiarize themselves with the campus and academic environment. Check the events calendar on our website for upcoming orientation dates or contact the admission office for details."
+      ]
+    },
+    {
+      "tag": "admission_withdrawal",
+      "patterns": [
+        "Can I withdraw my admission application?",
+        "Tell me about the admission withdrawal process",
+        "Do you allow withdrawal of admission?"
+      ],
+      "responses": [
+        "Yes, you can withdraw your admission application if needed. Contact the admission office for information on the admission withdrawal process and any applicable deadlines."
+      ]
+    },
+    {
+      "tag": "admission_waitlist",
+      "patterns": [
+        "Am I on the admission waitlist?",
+        "Tell me about the admission waitlist",
+        "Can you check my status on the waitlist?"
+      ],
+      "responses": [
+        "If you are on the admission waitlist, you will be notified of any changes in your status. Check your email or contact the admission office for information on your waitlist status and any further instructions."
+      ]
+    },
+    {
+      "tag": "admission_aid",
+      "patterns": [
+        "Tell me about financial aid for admission",
+        "Do you offer admission-related financial assistance?",
+        "Can I apply for financial aid?"
+      ],
+      "responses": [
+        "Yes, we offer financial aid options for eligible students. Information about admission-related financial aid can be found on our website, or you can contact the financial aid office for assistance with the application process."
+      ]
+    },
+    {
+      "tag": "admission_portal",
+      "patterns": [
+        "How can I access the admission portal?",
+        "Tell me about the admission application portal",
+        "Can you provide a link to the admission portal?"
+      ],
+      "responses": [
+        "You can access the admission portal through our official website. Look for the 'Admission' section or follow the provided link on the website to log in and manage your application. Contact the admission office if you encounter any issues or need further assistance with the portal."
+      ]
+    },
+    {
+      "tag": "admission_rejection",
+      "patterns": [
+        "What should I do if my admission is rejected?",
+        "Tell me about the admission rejection process",
+        "Can I appeal a rejected admission?"
+      ],
+      "responses": [
+        "If your admission is rejected, you will receive a notification with information on the next steps. You may contact the admission office for clarification or information on any available appeal processes. It's important to review the reasons for rejection provided in the notification."
+      ]
+    },
+    {
+      "tag": "admission_notifications",
+      "patterns": [
+        "When will I receive admission notifications?",
+        "Tell me about the admission notification timeline",
+        "When can I expect to hear about my admission?"
+      ],
+      "responses": [
+        "Admission notifications are typically sent out [timeline]. You will receive an email notification with details about your admission status. If you have any concerns or questions, you can contact the admission office for assistance."
+      ]
+    },
+    {
+      "tag": "application_deadline_extension",
+      "patterns": [
+        "Is there an extension for the application deadline?",
+        "Tell me about a possible extension for the admission deadline",
+        "Can I still apply if I miss the deadline?"
+      ],
+      "responses": [
+        "Extensions to the application deadline are considered on a case-by-case basis. If you need an extension, please contact the admission office as soon as possible to discuss your situation and explore available options."
+      ]
+    },
+    
+    {
+      "tag": "admission_accommodations",
+      "patterns": [
+        "Can I request accommodations for the admission process?",
+        "Tell me about special accommodations for admission",
+        "Do you provide support for applicants with special needs?"
+      ],
+      "responses": [
+        "Yes, we accommodate applicants with special needs. If you require specific accommodations for the admission process, please contact the admission office in advance to discuss your needs and make appropriate arrangements."
+      ]
+    },
+    {
+      "tag": "admission_technical_support",
+      "patterns": [
+        "I'm experiencing technical issues with the admission portal. Can you help?",
+        "Tell me about technical support for admission-related problems",
+        "Is there a helpline for admission portal assistance?"
+      ],
+      "responses": [
+        "If you encounter technical issues with the admission portal, our technical support team is here to assist you. You can reach out for assistance by contacting the technical support helpline provided on the website or by emailing our support team directly."
+      ]
+    },
+    {
+      "tag": "admission_evaluation_criteria",
+      "patterns": [
+        "How are applications evaluated for admission?",
+        "Tell me about the criteria used in the admission evaluation process",
+        "What factors are considered during the application review?"
+      ],
+      "responses": [
+        "Applications are evaluated based on criteria . The admission office considers various factors during the review process. You can find details about the evaluation criteria on our website or contact the admission office for a comprehensive overview."
+      ]
+    },
+    {
+      "tag": "admission_confirmation_documents",
+      "patterns": [
+        "What documents are required for admission confirmation?",
+        "Tell me about the necessary documents for confirming admission",
+        "Do I need to submit additional paperwork for admission confirmation?"
+      ],
+      "responses": [
+        "To confirm your admission, you may need to submit The list of necessary documents mentioned in on our website. If you have specific questions about the confirmation process, you can contact the admission office for guidance."
+      ]
+    },
+    {
+      "tag": "admission_portfolio_requirements",
+      "patterns": [
+        "Are there portfolio requirements for admission?",
+        "Tell me about the submission criteria for admission portfolios",
+        "Do I need to include a portfolio for my admission application?"
+      ],
+      "responses": [
+        "Some programs may have portfolio requirements. You can check the specific criteria for admission portfolios on our website or contact the admission office for details on portfolio submission."
+      ]
+    },
+    {
+      "tag": "admission_dual_degree_programs",
+      "patterns": [
+        "Tell me about dual-degree programs for admission",
+        "Are there options for pursuing dual degrees?",
+        "Can I apply for admission to multiple programs simultaneously?"
+      ],
+      "responses": [
+        "We offer dual-degree programs for eligible students. Information about the available dual-degree options and the application process can be found on our website or by contacting the admission office."
+      ]
+    },
+    {
+      "tag": "college_location",
+      "patterns": [
+        "Where is the college located?",
+        "Tell me about the college's location",
+        "Can you provide information about the campus location?"
+      ],
+      "responses": [
+        "Our college is located in 28, 1, Knowledge Park III, Greater Noida, Gujarpur, Uttar Pradesh 201306 . It offers a beautiful and convenient campus environment. You can find detailed directions and maps on our website for easy navigation."
+      ]
+    },
+    {
+      "tag": "college_accreditation",
+      "patterns": [
+        "Is the college accredited?",
+        "Tell me about the college's accreditation status",
+        "Can you provide information about the accreditation of the college?"
+      ],
+      "responses": [
+        "Yes, our college is accredited by NAAC . Accreditation ensures that our institution meets high-quality standards in education. You can find more details about our accreditation on our website."
+      ]
+    },
+    {
+      "tag": "college_programs",
+      "patterns": [
+        "What academic programs does the college offer?",
+        "Tell me about the available degree programs",
+        "Can you provide information about the college's academic offerings?"
+      ],
+      "responses": [
+        "Our college offers a diverse range of academic programs, including BTECH, BCA ,BHMCT, MANAGEMENT. You can explore detailed information about each program on our website or by contacting the academic advising office."
+      ]
+    },
+    {
+      "tag": "college_faculty",
+      "patterns": [
+        "Tell me about the college faculty",
+        "Can you provide information about the faculty members?",
+        "What qualifications do the college professors have?"
+      ],
+      "responses": [
+        "Our college is proud to have a dedicated and highly qualified faculty. Our professors hold Ph.D. and bring a wealth of experience to the classroom. You can find profiles of our faculty members on our website."
+      ]
+    },
+    {
+      "tag": "college_student_life",
+      "patterns": [
+        "What is student life like at the college?",
+        "Tell me about the extracurricular activities",
+        "Can you provide information about campus life?"
+      ],
+      "responses": [
+        "Student life at our college is vibrant and diverse. We offer a variety of extracurricular activities, clubs, and events to enhance the overall college experience. You can explore the many opportunities available on campus through our student life resources."
+      ]
+    },
+    {
+      "tag": "college_admission_requirements",
+      "patterns": [
+        "What are the admission requirements for the college?",
+        "Tell me about the criteria for college admission",
+        "Can you provide information about the admission process?"
+      ],
+      "responses": [
+        "The admission requirements for our college includes Different things for different courses . You can find detailed information about the admission process, deadlines, and required documents on our website: https://delhitechnicalcampus.ac.in/admission-process/ or by contacting the admission office."
+      ]
+    },
+    {
+      "tag": "college_tuition",
+      "patterns": [
+        "How much is the tuition at the college?",
+        "Tell me about the cost of tuition",
+        "Can you provide information about college fees?"
+      ],
+      "responses": [
+        "Our college's tuition fees vary based on the program and residency status. You can find detailed information about tuition and fees on our website:https://delhitechnicalcampus.ac.in/ or by contacting the financial aid office for assistance and information about available scholarships."
+      ]
+    },
+    {
+      "tag": "college_scholarships",
+      "patterns": [
+        "Are there scholarships available at the college?",
+        "Tell me about scholarship opportunities",
+        "Can you provide information about financial aid?"
+      ],
+      "responses": [
+        "Yes, our college offers various scholarships to eligible students. Information about available scholarships and the application process can be found on our website or by contacting the financial aid office for assistance."
+      ]
+    },
+    {
+      "tag": "college_alumni_network",
+      "patterns": [
+        "Tell me about the college's alumni network",
+        "Can you provide information about the alumni association?",
+        "How strong is the college's alumni community?"
+      ],
+      "responses": [
+        "Our college has a robust and engaged alumni network. Graduates contribute to the success of our community and often participate in mentoring programs. You can learn more about our alumni network and events through our alumni association."
+      ]
+    },
+    {
+      "tag": "college_career_services",
+      "patterns": [
+        "Tell me about the college's career services",
+        "Can you provide information about career counseling?",
+        "How does the college support students in their career development?"
+      ],
+      "responses": [
+        "Our college provides comprehensive career services to support students in their career development. Services include various clubs and societies for career growth and events like technical fest and cultural fest are organised , and you can access resources and schedule appointments through our career services office."
+      ]
+    },
+    {
+      "tag": "college_research_opportunities",
+      "patterns": [
+        "Are there research opportunities for students?",
+        "Tell me about undergraduate research programs",
+        "Can you provide information about research initiatives at the college?"
+      ],
+      "responses": [
+        "Our college encourages student involvement in research. We offer various research opportunities, including BTECH, BCA, BHMCT, MANAGEMENT. You can explore details about research initiatives and opportunities on our website or by contacting the research office."
+      ]
+    },
+    {
+      "tag": "college_library_resources",
+      "patterns": [
+        "Tell me about the college's library resources",
+        "Can you provide information about the library's collection?",
+        "How can students access library resources?"
+      ],
+      "responses": [
+        "Our college library provides extensive resources, including 4000+ Books in a collection. Students can access the library's collection both on-campus and online. You can learn more about library services and resources through our library website."
+      ]
+    },
+    {
+      "tag": "college_housing_options",
+      "patterns": [
+        "What are the housing options for students?",
+        "Tell me about on-campus housing",
+        "Can you provide information about off-campus housing?"
+      ],
+      "responses": [
+        "Our college offers a range of housing options, including on-campus and off-campus choices. You can explore details about housing facilities, amenities, and application processes on our website or by contacting the housing office."
+      ]
+    },
+    {
+      "tag": "college_health_services",
+      "patterns": [
+        "Tell me about the college's health services",
+        "Can you provide information about the campus health center?",
+        "How does the college support student health and well-being?"
+      ],
+      "responses": [
+        "Our college prioritizes student health and well-being. We offer comprehensive health services through the campus health center. You can access health resources and schedule appointments through our health services office."
+      ]
+    },
+    {
+      "tag": "college_clubs_and_activities",
+      "patterns": [
+        "What clubs and activities are available for students?",
+        "Tell me about extracurricular clubs",
+        "Can you provide information about student organizations?"
+      ],
+      "responses": [
+        "Our college boasts a diverse range of clubs  and activities catering to various interests. You can explore the list of student organizations and events on our website or by visiting the student affairs office for more details."
+      ]
+    },
+    {
+      "tag": "college_sports_program",
+      "patterns": [
+        "Tell me about the college's sports program",
+        "Can you provide information about varsity sports?",
+        "How can students get involved in college sports?"
+      ],
+      "responses": [
+        "Our college offers a vibrant sports program with opportunities for student participation. You can learn more about varsity sports, intramural activities, and sports facilities on our website or by contacting the sports and recreation office."
+      ]
+    },
+    {
+      "tag": "college_environmental_initiatives",
+      "patterns": [
+        "Tell me about the college's environmental initiatives",
+        "Can you provide information about sustainability efforts?",
+        "How does the college contribute to environmental conservation?"
+      ],
+      "responses": [
+        "Our college is committed to environmental sustainability. We have various initiatives, via clubs and societies. You can find details about our sustainability efforts on our website or by contacting the sustainability office."
+      ]
+    },
+    {
+      "tag": "college_community_engagement",
+      "patterns": [
+        "How is the college involved in community engagement?",
+        "Tell me about community service opportunities",
+        "Can you provide information about the college's community outreach programs?"
+      ],
+      "responses": [
+        "Our college actively engages in community service and outreach programs. Students can participate in various community service opportunities, including NSS,SPORTS and many more. You can learn more about our community engagement initiatives on our website or by contacting the community relations office."
+      ]
+    }
+  ]
+}
